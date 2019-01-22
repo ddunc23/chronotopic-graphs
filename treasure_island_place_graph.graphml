@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+     http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph id="G" edgedefault="undirected">
+    <node id="Foremast Hill"/>
+    <node id="Spyglass Hill" />
+    <node id="Swamp" />
+    <node id="Fort" />
+    <node id="Skeleton Island" /> 
+    <node id="Graves" />
+    
+    <edge source="Spyglass Hill" target="Swamp"/>
+    <edge source="Swamp" target="Fort" />
+    <edge source="Skeleton Island" target="Fort" />
+    
+  </graph>
+</graphml>

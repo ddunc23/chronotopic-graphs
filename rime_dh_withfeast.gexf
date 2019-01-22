@@ -1,0 +1,71 @@
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="importance" type="long" />
+      <attribute id="1" title="lat" type="double" />
+      <attribute id="2" title="lon" type="double" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.2</creator>
+      <lastmodified>22/01/2019</lastmodified>
+    </meta>
+    <nodes>
+      <node id="the feast" label="the feast">
+        <attvalues>
+          <attvalue for="0" value="2206" />
+        </attvalues>
+      </node>
+      <node id="the harbour" label="the harbour">
+        <attvalues>
+          <attvalue for="0" value="8154" />
+          <attvalue for="1" value="56.639314" />
+          <attvalue for="2" value="-5.195224" />
+        </attvalues>
+      </node>
+      <node id="Atlantic Equator" label="Atlantic Equator">
+        <attvalues>
+          <attvalue for="0" value="356" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="-24.271748" />
+        </attvalues>
+      </node>
+      <node id="southward" label="southward">
+        <attvalues>
+          <attvalue for="0" value="82" />
+          <attvalue for="1" value="-59.418257" />
+          <attvalue for="2" value="-45.767694" />
+        </attvalues>
+      </node>
+      <node id="northwards" label="northwards">
+        <attvalues>
+          <attvalue for="0" value="2794" />
+          <attvalue for="1" value="-29.642232" />
+          <attvalue for="2" value="-105.155588" />
+        </attvalues>
+      </node>
+      <node id="silent sea" label="silent sea">
+        <attvalues>
+          <attvalue for="0" value="6110" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="-134.649521" />
+        </attvalues>
+      </node>
+      <node id="Northwest Passage" label="Northwest Passage">
+        <attvalues>
+          <attvalue for="0" value="2116" />
+          <attvalue for="1" value="74.178469" />
+          <attvalue for="2" value="-107.288654" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="the feast" target="the harbour" weight="1" />
+      <edge id="1" source="the harbour" target="Atlantic Equator" weight="10" />
+      <edge id="2" source="the harbour" target="Northwest Passage" weight="5" />
+      <edge id="3" source="Atlantic Equator" target="southward" weight="10" />
+      <edge id="4" source="southward" target="northwards" weight="10" />
+      <edge id="5" source="northwards" target="silent sea" weight="10" />
+      <edge id="6" source="silent sea" target="Northwest Passage" weight="10" />
+    </edges>
+  </graph>
+</gexf>

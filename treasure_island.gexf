@@ -1,0 +1,49 @@
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="importance" type="long" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.2</creator>
+      <lastmodified>09/01/2019</lastmodified>
+    </meta>
+    <nodes>
+      <node id="Spyglass Hill" label="Spyglass Hill">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Swamp" label="Swamp">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Fort" label="Fort">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Graves" label="Graves">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Skeleton Island" label="Skeleton Island" />
+      <node id="Foremast Hill" label="Foremast Hill">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Spyglass Hill" target="Swamp" weight="10" />
+      <edge id="1" source="Spyglass Hill" target="Skeleton Island" weight="5" />
+      <edge id="2" source="Spyglass Hill" target="Fort" weight="5" />
+      <edge id="3" source="Spyglass Hill" target="Foremast Hill" weight="5" />
+      <edge id="4" source="Swamp" target="Fort" weight="10" />
+      <edge id="5" source="Fort" target="Skeleton Island" weight="10" />
+      <edge id="6" source="Fort" target="Graves" weight="10" />
+      <edge id="7" source="Skeleton Island" target="Foremast Hill" weight="5" />
+    </edges>
+  </graph>
+</gexf>
